@@ -1,0 +1,18 @@
+@layer components {
+  .txt-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-one 
+    via-gold-two via-gold-three via-gold-four via-gold-five to-gold-six;
+  }
+
+  .vertical-md{
+    @apply md:text-white md:tracking-widest md:whitespace-nowrap 
+    md:transform md:rotate-90;
+  }
+
+  .imagen-sdw-md::after{
+    content: '';
+    @apply md:relative md:block md:h-shadow md:my-shadow md:bg-gradient-to-b
+     md:from-transparent md:to-black;
+  }
+}
+

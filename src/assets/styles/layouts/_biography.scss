@@ -1,0 +1,21 @@
+@layer components {
+  .fx-card {
+    @apply flex flex-col mx-4 my-6 items-center md:w-cl-two lg:w-cl-three;
+  }
+
+  .ph-card {
+    @apply w-52 h-52;
+  }
+
+  .tl-card {
+    @apply text-calc-tl-cd txt-gold;
+  }
+
+  .sbtl-card {
+    @apply text-calc-sbtl-cd;
+  }
+
+  .prg-card {
+    @apply text-center;
+  }
+}
